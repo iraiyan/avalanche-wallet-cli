@@ -94,9 +94,7 @@ We'll now check that the CLI shows the same address as the web wallet.
 
 With your ledger in the Avax app, run `cli/cli.js get-new-receive-address`.
 You'll be prompted to accept the command on your ledger. The ledger text should
-be "Provide Extended Public Key", "Derivation Path 44'/9000'/0'", and then an
-address beginning with "X-" (note this address will not be the same as the web
-wallet or the address shown by the CLI itself). Upon accepting this, the CLI
+be "Provide Extended Public Key",and "Derivation Path 44'/9000'/0'". Upon accepting this, the CLI
 should return the same address as the web wallet.
 
 Now use the faucet (https://faucet.avax.network/) to send some tokens to the
@@ -110,8 +108,8 @@ Like the previous section, we'll use the web wallet and check the total balance
 displayed matches the returned value by the CLI.
 
 Run `cli/cli.js get-balance`. You will be prompted to accept the command on your
-ledger. The ledger text should be "Provide Extended Public Key", "Derivation
-Path 44'/9000'/0'", and then an address beginning with "X-". Upon accepting
+ledger. The ledger text should be "Provide Extended Public Key", and "Derivation
+Path 44'/9000'/0'". Upon accepting
 this, the CLI should return your total balance, and this should match the web
 wallet. You can get more testnet funds by following the instructions in the
 get-new-receive-address section.
