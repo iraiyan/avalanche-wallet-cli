@@ -9,6 +9,7 @@
 If you have the package manager https://nixos.org/ installed, just run:
 ```bash
 $ nix-shell
+$ git submodule update --recursive --init
 [nix-shell:~]$ yarn install --frozen-lockfile
 ```
 
