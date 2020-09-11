@@ -25,6 +25,7 @@ $ sudo apt update
 Install the necessary libraries and tools using `apt`
 ```bash
 $ sudo apt install libusb-1.0-0-dev libudev1 libudev-dev make g++
+$ touch ~/.profile
 ```
 
 You can now follow the rest of the instructions in this section.
@@ -39,6 +40,10 @@ To reflect the changes for the current user session, use the following command:
 ```bash
 $ export NVM_DIR="$HOME/.nvm"
 $ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+
+```bash
+source ~/.profile
 ```
 
 #### Installation of Node.js
