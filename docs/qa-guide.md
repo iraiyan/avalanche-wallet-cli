@@ -160,7 +160,7 @@ be sure that the web wallet is using the same mnemonic phrase as your ledger
 device. Click the "View Key Phrase" button and verify they match. If they don't
 you must reset the web wallet and create another with the same phrase, and go
 through these instructions again. If they do match, hover over the icon buttons
-next to "View Key Phrase" and click the one which is labeled "Past Addresses".
+next to "View Key Phrase" and click the one which is labeled "HD Addresses".
 You should see a list of all the addresses you've had in the past in this
 wallet, ordered by the index (`#` column). If you have many addresses here, you
 can check they match by running `cli/cli.js get-address 0/N` where you
