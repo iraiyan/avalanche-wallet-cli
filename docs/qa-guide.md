@@ -128,7 +128,7 @@ current value the faucet provides).
 Run `cli/cli.js transfer --to X-A4ZiuDcNizdqojr4XqEBSFx9CmKuXvQSX --amount 100`.
 You'll be prompted to accept a "Provide Extended Public Key" request on your
 ledger. Accept this, then, a couple of seconds later, you should be prompted to
-"Sign Bytes" on the ledger. Check that the long hash on the ledger device
+"Sign Hash" and the Derivation Prefix on the ledger. Check that the long hash on the ledger device
 matches the hash printed in the terminal. Depending on how your money is stored,
 you may need to sign several times for different paths. Accept them all
 (provided the hashes are correct) and the CLI should print:
