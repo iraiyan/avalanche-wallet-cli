@@ -31,10 +31,13 @@ $ sudo apt install libusb-1.0-0-dev libudev1 libudev-dev make g++
 You can now follow the rest of the instructions in this section.
 
 #### Installation of NVM
-
+```
+$ touch ~/.profile
+``` 
 NVM is a tool for provisioning particular versions of Node.js. First download the NVM installation script using `curl`:
 ```bash
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+$ source ~/.profile
 ```
 To reflect the changes for the current user session, use the following command:
 ```bash
