@@ -89,11 +89,3 @@ You can also omit the `yarn node` portion:
 $ cli/cli.js --help
 ```
 
-## Building an executable
-
-This currently doesn't work on NixOS, see: https://github.com/NixOS/nixpkgs/pull/48193/files#diff-329ce6280c48eac47275b02077a2fc62R29
-I was able to make this partially work in an Ubuntu VM.
-
-```bash
-$ yarn build
-```
